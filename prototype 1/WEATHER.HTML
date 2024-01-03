@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Single Day Weather Forecast</title>
+  <link rel="stylesheet" href="weather.css"> 
+</head>
+<body>
+  <header>
+    <h2>Weather Website</h2>
+    <div class="search-bar">
+        <input type="text" placeholder="Enter city name" id="search">
+        <button id="btn">Search</button>
+      </div>
+  </header>
+
+  <main>
+    <section class="weather-today">
+      <!-- Today's weather information -->
+      <div class="weather-info">
+        <!-- Weather details here (temperature, description, etc.) -->
+        <h2>Today's Weather</h2>
+        <p class="temperature"></p>
+        <p class="description"></p>
+      </div>
+      <div class="weather-icon">
+        <!-- Weather icon here -->
+        <img src="" alt="Sunny">
+      </div>
+    </section>
+
+    <section class="day-forecast">
+      <!-- Forecast for the day -->
+      <h2>Forecast for Today</h2>
+      <div class="forecast-details">
+        <!-- Details for the day's forecast -->
+        <p class="time"></p>
+        <p class="temperature"></p>
+        <p class="description"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+  </footer>
+<script src="weather.js"></script>
+</body>
+</html>
